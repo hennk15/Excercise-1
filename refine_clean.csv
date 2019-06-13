@@ -29,4 +29,4 @@ refine_clean$product_laptop <- ifelse(refine_clean$product_category == "Laptop",
 refine_clean$product_tablet <- ifelse(refine_clean$product_category == "Tablet", 1, 0)
 head(refine_clean)
 refine_clean
-write.csv(refine_clean, file = "refine_clean.csv")
+
